@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3549A9225FC704B00FA62FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549A9125FC704B00FA62FF /* AppDelegate.swift */; };
+		D3549A9425FC704B00FA62FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549A9325FC704B00FA62FF /* SceneDelegate.swift */; };
+		D3549A9625FC704B00FA62FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549A9525FC704B00FA62FF /* ViewController.swift */; };
+		D3549A9925FC704B00FA62FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3549A9725FC704B00FA62FF /* Main.storyboard */; };
+		D3549A9B25FC704D00FA62FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3549A9A25FC704D00FA62FF /* Assets.xcassets */; };
+		D3549A9E25FC704D00FA62FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3549A9C25FC704D00FA62FF /* LaunchScreen.storyboard */; };
+		D3549AA925FC704D00FA62FF /* MinaWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AA825FC704D00FA62FF /* MinaWalletTests.swift */; };
+		D3549AB425FC704D00FA62FF /* MinaWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AB325FC704D00FA62FF /* MinaWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3549AA525FC704D00FA62FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3549A8625FC704B00FA62FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3549A8D25FC704B00FA62FF;
+			remoteInfo = MinaWallet;
+		};
+		D3549AB025FC704D00FA62FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3549A8625FC704B00FA62FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3549A8D25FC704B00FA62FF;
+			remoteInfo = MinaWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3549A8E25FC704B00FA62FF /* MinaWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinaWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3549A9125FC704B00FA62FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3549A9325FC704B00FA62FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3549A9525FC704B00FA62FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3549A9825FC704B00FA62FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3549A9A25FC704D00FA62FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3549A9D25FC704D00FA62FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3549A9F25FC704D00FA62FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3549AA425FC704D00FA62FF /* MinaWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinaWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3549AA825FC704D00FA62FF /* MinaWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinaWalletTests.swift; sourceTree = "<group>"; };
+		D3549AAA25FC704D00FA62FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3549AAF25FC704D00FA62FF /* MinaWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinaWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3549AB325FC704D00FA62FF /* MinaWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinaWalletUITests.swift; sourceTree = "<group>"; };
+		D3549AB525FC704D00FA62FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3549A8B25FC704B00FA62FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AA125FC704D00FA62FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AAC25FC704D00FA62FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3549A8525FC704B00FA62FF = {
+			isa = PBXGroup;
+			children = (
+				D3549A9025FC704B00FA62FF /* MinaWallet */,
+				D3549AA725FC704D00FA62FF /* MinaWalletTests */,
+				D3549AB225FC704D00FA62FF /* MinaWalletUITests */,
+				D3549A8F25FC704B00FA62FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3549A8F25FC704B00FA62FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3549A8E25FC704B00FA62FF /* MinaWallet.app */,
+				D3549AA425FC704D00FA62FF /* MinaWalletTests.xctest */,
+				D3549AAF25FC704D00FA62FF /* MinaWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3549A9025FC704B00FA62FF /* MinaWallet */ = {
+			isa = PBXGroup;
+			children = (
+				D3549A9125FC704B00FA62FF /* AppDelegate.swift */,
+				D3549A9325FC704B00FA62FF /* SceneDelegate.swift */,
+				D3549A9525FC704B00FA62FF /* ViewController.swift */,
+				D3549A9725FC704B00FA62FF /* Main.storyboard */,
+				D3549A9A25FC704D00FA62FF /* Assets.xcassets */,
+				D3549A9C25FC704D00FA62FF /* LaunchScreen.storyboard */,
+				D3549A9F25FC704D00FA62FF /* Info.plist */,
+			);
+			path = MinaWallet;
+			sourceTree = "<group>";
+		};
+		D3549AA725FC704D00FA62FF /* MinaWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3549AA825FC704D00FA62FF /* MinaWalletTests.swift */,
+				D3549AAA25FC704D00FA62FF /* Info.plist */,
+			);
+			path = MinaWalletTests;
+			sourceTree = "<group>";
+		};
+		D3549AB225FC704D00FA62FF /* MinaWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3549AB325FC704D00FA62FF /* MinaWalletUITests.swift */,
+				D3549AB525FC704D00FA62FF /* Info.plist */,
+			);
+			path = MinaWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3549A8D25FC704B00FA62FF /* MinaWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3549AB825FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWallet" */;
+			buildPhases = (
+				D3549A8A25FC704B00FA62FF /* Sources */,
+				D3549A8B25FC704B00FA62FF /* Frameworks */,
+				D3549A8C25FC704B00FA62FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinaWallet;
+			productName = MinaWallet;
+			productReference = D3549A8E25FC704B00FA62FF /* MinaWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3549AA325FC704D00FA62FF /* MinaWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3549ABB25FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWalletTests" */;
+			buildPhases = (
+				D3549AA025FC704D00FA62FF /* Sources */,
+				D3549AA125FC704D00FA62FF /* Frameworks */,
+				D3549AA225FC704D00FA62FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3549AA625FC704D00FA62FF /* PBXTargetDependency */,
+			);
+			name = MinaWalletTests;
+			productName = MinaWalletTests;
+			productReference = D3549AA425FC704D00FA62FF /* MinaWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3549AAE25FC704D00FA62FF /* MinaWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3549ABE25FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWalletUITests" */;
+			buildPhases = (
+				D3549AAB25FC704D00FA62FF /* Sources */,
+				D3549AAC25FC704D00FA62FF /* Frameworks */,
+				D3549AAD25FC704D00FA62FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3549AB125FC704D00FA62FF /* PBXTargetDependency */,
+			);
+			name = MinaWalletUITests;
+			productName = MinaWalletUITests;
+			productReference = D3549AAF25FC704D00FA62FF /* MinaWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3549A8625FC704B00FA62FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3549A8D25FC704B00FA62FF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D3549AA325FC704D00FA62FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3549A8D25FC704B00FA62FF;
+					};
+					D3549AAE25FC704D00FA62FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3549A8D25FC704B00FA62FF;
+					};
+				};
+			};
+			buildConfigurationList = D3549A8925FC704B00FA62FF /* Build configuration list for PBXProject "MinaWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3549A8525FC704B00FA62FF;
+			productRefGroup = D3549A8F25FC704B00FA62FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3549A8D25FC704B00FA62FF /* MinaWallet */,
+				D3549AA325FC704D00FA62FF /* MinaWalletTests */,
+				D3549AAE25FC704D00FA62FF /* MinaWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3549A8C25FC704B00FA62FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3549A9E25FC704D00FA62FF /* LaunchScreen.storyboard in Resources */,
+				D3549A9B25FC704D00FA62FF /* Assets.xcassets in Resources */,
+				D3549A9925FC704B00FA62FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AA225FC704D00FA62FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AAD25FC704D00FA62FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3549A8A25FC704B00FA62FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3549A9625FC704B00FA62FF /* ViewController.swift in Sources */,
+				D3549A9225FC704B00FA62FF /* AppDelegate.swift in Sources */,
+				D3549A9425FC704B00FA62FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AA025FC704D00FA62FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3549AA925FC704D00FA62FF /* MinaWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3549AAB25FC704D00FA62FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3549AB425FC704D00FA62FF /* MinaWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3549AA625FC704D00FA62FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3549A8D25FC704B00FA62FF /* MinaWallet */;
+			targetProxy = D3549AA525FC704D00FA62FF /* PBXContainerItemProxy */;
+		};
+		D3549AB125FC704D00FA62FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3549A8D25FC704B00FA62FF /* MinaWallet */;
+			targetProxy = D3549AB025FC704D00FA62FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3549A9725FC704B00FA62FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3549A9825FC704B00FA62FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3549A9C25FC704D00FA62FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3549A9D25FC704D00FA62FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3549AB625FC704D00FA62FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3549AB725FC704D00FA62FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3549AB925FC704D00FA62FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3549ABA25FC704D00FA62FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3549ABC25FC704D00FA62FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinaWallet.app/MinaWallet";
+			};
+			name = Debug;
+		};
+		D3549ABD25FC704D00FA62FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinaWallet.app/MinaWallet";
+			};
+			name = Release;
+		};
+		D3549ABF25FC704D00FA62FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinaWallet;
+			};
+			name = Debug;
+		};
+		D3549AC025FC704D00FA62FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA8J538UUR;
+				INFOPLIST_FILE = MinaWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolean.MinaWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinaWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3549A8925FC704B00FA62FF /* Build configuration list for PBXProject "MinaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3549AB625FC704D00FA62FF /* Debug */,
+				D3549AB725FC704D00FA62FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3549AB825FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3549AB925FC704D00FA62FF /* Debug */,
+				D3549ABA25FC704D00FA62FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3549ABB25FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3549ABC25FC704D00FA62FF /* Debug */,
+				D3549ABD25FC704D00FA62FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3549ABE25FC704D00FA62FF /* Build configuration list for PBXNativeTarget "MinaWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3549ABF25FC704D00FA62FF /* Debug */,
+				D3549AC025FC704D00FA62FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3549A8625FC704B00FA62FF /* Project object */;
+}
