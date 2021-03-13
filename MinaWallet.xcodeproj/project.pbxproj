@@ -15,6 +15,8 @@
 		D3549A9E25FC704D00FA62FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3549A9C25FC704D00FA62FF /* LaunchScreen.storyboard */; };
 		D3549AA925FC704D00FA62FF /* MinaWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AA825FC704D00FA62FF /* MinaWalletTests.swift */; };
 		D3549AB425FC704D00FA62FF /* MinaWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AB325FC704D00FA62FF /* MinaWalletUITests.swift */; };
+		D3549AC525FC708D00FA62FF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AC425FC708D00FA62FF /* Models.swift */; };
+		D3549ACA25FC7DBE00FA62FF /* MinaRestAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3549AC925FC7DBE00FA62FF /* MinaRestAPIDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D3549AAF25FC704D00FA62FF /* MinaWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinaWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3549AB325FC704D00FA62FF /* MinaWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinaWalletUITests.swift; sourceTree = "<group>"; };
 		D3549AB525FC704D00FA62FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3549AC425FC708D00FA62FF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D3549AC925FC7DBE00FA62FF /* MinaRestAPIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinaRestAPIDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D3549A9125FC704B00FA62FF /* AppDelegate.swift */,
 				D3549A9325FC704B00FA62FF /* SceneDelegate.swift */,
 				D3549A9525FC704B00FA62FF /* ViewController.swift */,
+				D3549AC425FC708D00FA62FF /* Models.swift */,
+				D3549AC925FC7DBE00FA62FF /* MinaRestAPIDataManager.swift */,
 				D3549A9725FC704B00FA62FF /* Main.storyboard */,
 				D3549A9A25FC704D00FA62FF /* Assets.xcassets */,
 				D3549A9C25FC704D00FA62FF /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3549A9625FC704B00FA62FF /* ViewController.swift in Sources */,
+				D3549ACA25FC7DBE00FA62FF /* MinaRestAPIDataManager.swift in Sources */,
 				D3549A9225FC704B00FA62FF /* AppDelegate.swift in Sources */,
 				D3549A9425FC704B00FA62FF /* SceneDelegate.swift in Sources */,
+				D3549AC525FC708D00FA62FF /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
